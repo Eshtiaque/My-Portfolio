@@ -12,7 +12,7 @@ const Footer = () => {
         <div>
            
             <Slide bottom>
-            <footer className="footer footer-center p-10 bg-green-950 text-slate-400 rounded">
+            <footer className="footer footer-center p-10  text-slate-400 rounded">
             <button onClick={goToBtn} className='border-rounded-full text-4xl text-lime-300'> <BsFillArrowUpCircleFill></BsFillArrowUpCircleFill></button>
            
                 <div className="grid grid-flow-col gap-4">

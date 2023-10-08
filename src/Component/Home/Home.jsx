@@ -14,8 +14,8 @@ const Home = () => {
 
     return (
      
-
-        <div className='bg-green-900 font-black mx-auto max-w-7xl'>
+        <div className="bg-slate-800">
+            <div className=' font-black mx-auto max-w-7xl'>
         <Navbar></Navbar>
             <Banner></Banner>
             <About></About>
@@ -25,6 +25,8 @@ const Home = () => {
             <Contact></Contact>
             <Footer></Footer>
         </div>
+        </div>
+        
     );
 };
 

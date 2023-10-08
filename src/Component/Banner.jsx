@@ -1,16 +1,16 @@
 // import { Link } from "react-router-dom";
 import { TypeAnimation } from "react-type-animation";
-import photo from "../assets/fern-foliage-plant-nature.jpg"
+//import photo from "../assets/fern-foliage-plant-nature.jpg"
 import img from "../assets/Picsart_23-07-02_15-57-11-668.png"
 import { GrLinkedin, GrInstagram, GrProjects } from 'react-icons/gr';
 import { FaGithub, FaFacebookSquare } from 'react-icons/fa';
 import { Link } from "react-router-dom";
 import Slide from 'react-reveal/Slide';
-
+//style={{ backgroundImage: `url(${photo})` }}
 
 const Banner = () => {
     return (
-        <div className="pt-16 w-full h-[600px] " style={{ backgroundImage: `url(${photo})` }}>
+        <div className="pt-16 w-full h-[600px] " >
             <div className=" bg-opacity-60"></div>
             <div className="grid lg:grid-cols-2 md:grid-cols-2 text-left">
                 <Slide left>
