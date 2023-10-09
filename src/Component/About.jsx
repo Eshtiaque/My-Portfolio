@@ -7,8 +7,8 @@ import Fade from 'react-reveal/Fade';
 const About = () => {
     return (
         <div id="about" className=" ">
-            <hr className=" mb-4 mt-4 border-2 border-gray-600 " />
-            <Fade right>
+            <hr className=" mb-4 mt-48 border-2 border-gray-600 " />
+            <Fade left>
                 <div className="max-w-md  rounded-full  lg:hidden md:hidden">
 
 
@@ -36,11 +36,11 @@ const About = () => {
                         {/* Put this part before </body> tag */}
                         <input type="checkbox" id="my-modal" className="modal-toggle" />
                         <div className="modal">
-                            <div className="modal-box bg-slate-900 text-yellow-100">
-                                <h3 className="font-bold ">Know More :</h3>
-                                <p className="py-4 text-sm">As a passionate developer, I believe in hard work. Last one year I consistently learn (MERN) stack development. I learn a lot of technology in that time and did almost 20+ projects. Also, I continuously seek out opportunities to enhance my skills and stay up-to-date with the latest trends in web development. Now I am seeking an opportunity to start my professional development career.</p>
+                            <div className="modal-box glass text-black p-2 ">
+                                <h3 className="font-bold  text-lime-400 rounded-t-lg bg-slate-950 ">Know More :</h3>
+                                <p className="py-4 text-sm bg-slate-950 text-white rounded-b-lg">As a passionate developer, I believe in hard work. Last one year I consistently learn (MERN) stack development. I learn a lot of technology in that time and did almost 20+ projects. Also, I continuously seek out opportunities to enhance my skills and stay up-to-date with the latest trends in web development. Now I am seeking an opportunity to start my professional development career.</p>
                                 <div className="modal-action">
-                                    <label htmlFor="my-modal" className="btn-sm text-yellow-100">Yay!</label>
+                                    <label htmlFor="my-modal" className="btn btn-sm text-lime-500 bg-slate-950">Yay!</label>
                                 </div>
                             </div>
                         </div>
@@ -48,9 +48,9 @@ const About = () => {
 
 
                     <div className="w lg:m-8">
-                        <Fade top>
+                        <div >
                             <img className="lg:rounded-2xl p-2 rounded-3xl item-center  lg:h-96 lg:w-96" src={photo} alt="" />
-                        </Fade >
+                        </div >
                     </div>
                 </div>
             </Fade>

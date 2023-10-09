@@ -14,9 +14,10 @@ const Navbar = () => {
     </>
 
     return (
-        <div className="navbar text-white h-24">
+    
+        <div className="navbar sticky top-0 z-10 glass  lg:rounded-full lg:ps-12 lg:pr-12  pr-4 text-white h-24 ">
              <Fade right>
-            <div className="navbar-start">
+            <div className="navbar-start max-w-7xl mx-auto">
                 <div className="dropdown text-lime-300">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>

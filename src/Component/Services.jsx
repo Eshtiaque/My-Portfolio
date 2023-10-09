@@ -1,15 +1,15 @@
-import Roll from 'react-reveal/Roll';
-import Shake from 'react-reveal/Shake';
+// import Shake from 'react-reveal/Shake';
 import photo1 from "../assets/AffectionateSeparateGazelle-size_restricted.gif"
 import photo2 from "../assets/2af00b77b9831ccf199a7360d8d4d39f.gif"
 import photo3 from "../assets/giphy.gif"
+import { Fade } from 'react-reveal';
 
 const Services = () => {
     return (
         <div id="service" className=''>
-            <Shake>   <h1 className="text-5xl mt-10 text-center   underline underline-offset-8 p-3 text-lime-300 font--black">Services</h1></Shake>
+            <div>   <h1 className="text-5xl mt-10 text-center   underline underline-offset-8 p-3 text-lime-300 font--black">Services</h1></div>
             <div className='grid lg:grid-cols-3 md:grid-cols-3 grid-cols-1 m-5 gap-3 '>
-            <Roll right>
+            <Fade right>
                 <div className="card     text-white  ">
                     <figure className="">
                         <img src={photo2} alt="Shoes" className="rounded-xl" />
@@ -25,8 +25,8 @@ Responsive Web design is the approach that suggests that design and development 
                         </div>
                     </div>
                 </div>
-                </Roll>
-            <Roll right>
+                </Fade>
+            <Fade right>
                 <div className="card h-84  text-white   shadow-2xl">
                 <figure className="p-1">
                         <img src={photo1} alt="Shoes" className="rounded-xl" />
@@ -42,9 +42,9 @@ Responsive Web design is the approach that suggests that design and development 
                         </div>
                     </div>
                 </div>
-                </Roll>
+                </Fade>
                 
-                <Roll right>
+                <Fade right>
                 <div className="card    text-white  ">
                     <figure className="px-1">
                         <img src={photo3} alt="Shoes" className="rounded-xl" />
@@ -59,7 +59,7 @@ Responsive Web design is the approach that suggests that design and development 
                         </div>
                     </div>
                 </div>
-                </Roll>
+                </Fade>
             </div>
 
         </div>

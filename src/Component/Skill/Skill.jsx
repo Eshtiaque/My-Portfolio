@@ -1,16 +1,14 @@
-import Shake from 'react-reveal/Shake';
 import ProgressBar from "@ramonak/react-progress-bar";
 import Roll from 'react-reveal/Roll';
-import Slide from 'react-reveal/Slide';
 
 
 
 const Skill = () => {
     return (
         <div id="skill"> 
-            <Shake>   <h1 className="text-5xl mt-10 text-center  underline underline-offset-8 p-3 text-lime-300 font--black">Skill</h1></Shake>
+            <div>   <h1 className="text-5xl mt-10 text-center  underline underline-offset-8 p-3 text-lime-300 font--black">Skill</h1></div>
             <div className='grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 m-5 gap-9'>
-                <Slide left>
+                <div>
                     <div>
                         <div>
                             <p className='text-white text-2xl'>HTML 5</p>
@@ -38,8 +36,8 @@ const Skill = () => {
                             <ProgressBar className='w-3/4  items-center mb-2' bgColor='black' height='24' labelColor='#bef264' animateOnRender={true} completed={80} />
                         </div>
                     </div>
-                </Slide>
-                <Slide right>
+                </div>
+                <div >
                     <div>
 
 
@@ -71,10 +69,10 @@ const Skill = () => {
                             <ProgressBar className='w-3/4  items-center mb-2' bgColor='black' height='24' labelColor='#bef264' animateOnRender={true} completed={80} />
                         </div>
                     </div>
-                </Slide>
+                </div>
             </div>
             <div>
-                <Shake>   <h1 className="text-5xl mt-10 text-center  underline underline-offset-8 p-3 text-lime-300 font-black">Professional Skill</h1></Shake>
+                <div>   <h1 className="text-5xl mt-24 mb-24 text-center  underline underline-offset-8 p-3 text-lime-300 font-black">Professional Skill</h1></div>
 
                 <div className='grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 justify-around text-center mt-5 gap-2  '>
                     <Roll right>
@@ -104,17 +102,14 @@ const Skill = () => {
                     </Roll>
                     
                     <Roll right>
-                    <div className='bg-gradient-to-r from-slate-950 via-slate-800 to-slate-950 rounded-3xl  pb-5'>
+                    <div className='bg-gradient-to-r from-slate-950 via-slate-800 to-slate-950 rounded-3xl  pb-5 '>
                         <h1 className='text-white text-center m-5 text-2xl'>Creativity </h1>
                         <div className="radial-progress  text-lime-400" style={{ "--value": "70", "--size": "6rem", "--thickness": "0.5rem" }}>70%</div>
                        
                     </div>
                     </Roll>
                 
-                 {/* <hr className=" mb-4 mt-4 border-2 w-3/4 border-gray-600" />
-                    <hr className=" mb-4 mt-4 border-2 w-3/4 border-gray-600 " />
-                    <hr className=" mb-4 mt-4 border-2 w-3/4 border-gray-600 " />
-                    <hr className=" mb-4 mt-4 border-2 w-3/4 border-gray-600 " /> */}
+                
                
 
                 </div>

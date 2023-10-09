@@ -15,9 +15,9 @@ import Slide from 'react-reveal/Slide';
 
 const MyWork = () => {
     return (
-        <div id="project text-white">
+        <div id="project" className="text-white mt-24 ">
             <Bounce top>
-                <h1 className="text-5xl mt-10 mb-5 text-center  underline underline-offset-8 p-3 text-lime-300 font--black">My Project</h1>
+                <h1 className="text-5xl mt-10 mb-24 text-center  underline underline-offset-8 p-3 text-lime-300 font--black">My Project</h1>
             </Bounce>
         
             <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 m-5 gap-3 text-slate-300 ">

@@ -64,13 +64,13 @@ const Banner = () => {
                 </Slide>
 
                 <div className="max-w-md  rounded-full hidden lg:block md:block">
-                    <Slide right>
+                    <div right>
                         <img className="mt-12  " src={img} alt="" />
 
 
                         <h2 className="absolute bg-gradient-to-r from-green-500 from-10%  to-lime-300 to-90% flex gap-2  text-black p-7 rounded-bl-full rounded-tr-full text-2xl  -mt-16">
                             <GrProjects ></GrProjects>  20+  Project *</h2>
-                    </Slide>
+                    </div>
                 </div>
             </div>
         </div >
